@@ -80,3 +80,12 @@ Customize the data set directory and run the script:
 ### 5.3 Test the Model:
 After training, test the model on a test dataset:
 'python test.py --model best_model.pth --data-dir path_to_test_data'
+
+## Example Custom Data Loading
+The custom data loader ('CustomImageFolder') handles various folder naming conventions, including:
+- Single-digit folders (0-9)
+- Single-letter folders (a-z)
+- Double-character folderts that represents capital letters (aa, bb, etc.)
+
+## 6. Contributions
+Please feel free to open issues or submit pull requests to improve the code!!!
