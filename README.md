@@ -1,4 +1,4 @@
-# CNN-based Image Classification with PyTorch
+# CNN-based Image Classification with PyTorch - MathTeXNet
 This repository contains a convulutional nural network(CNN) model implemented in PyTorch for multi-class image classification. The project supports custom datasets and includes data augmentation, automatic mixed precision(AMP) for efficient training, early stopping, and learning rate scheduling.
 
 ## 1. Key Features
